@@ -13,7 +13,7 @@ export const FuncShop = ( props ) => {
       <div class="divider"></div>
       <div class="purchase-info">
         <div class="price">{item.currency}{item.price}</div>
-        <button>Add to cart</button>
+        <button>Add to cart (FC)</button>
       </div>
     </div>
   )
