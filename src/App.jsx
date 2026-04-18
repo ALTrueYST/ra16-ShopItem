@@ -1,4 +1,5 @@
-import { FuncShop } from './components/fc/FuncShop'
+// import { FuncShop } from './components/fc/FuncShop'
+import { ClassShop } from './components/cc/ClassShop'
 import './Apps.css'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-      <FuncShop item={item} />
+      {/* <FuncShop item={item} /> */}
+      <ClassShop item={item} />
       </div>
     </div>
   )
